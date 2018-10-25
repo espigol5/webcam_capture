@@ -17,4 +17,10 @@ Tutorial:
 
 4 - Clonar el repositori,el qual acabem de fer un fork, en la nostra màquina local, amb la comanda "git clone /camí_del_repositori".
 
+5 - Instalar en git en cas de no tenir-lo, amb la comanda "sudo apt-get install git".
 
+6 - Entrar en la carpeta on haguem ubicat el repositori webcam_capture i crear i entrar en una nova carpeta anomenada build per exemple: "mkdir build && cd build".
+
+7 - Un cop en la carpeta build introduir la comanda "cmake .." i seguidament la comanda "make", per iniciar la llibreria cmake i compilar els executables indicats en l'arxiu CMakeLists.txt.
+
+8 - Per últim, introduim la comanda "./webcam_capture" per executar el programa. Finalment veurem com s'obre una nova finestra que ens retransmetrà la imatge de la nostra càmera.
